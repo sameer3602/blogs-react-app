@@ -1,3 +1,9 @@
+.Spinnerdiv{
+   height: 750px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 .spinner {
    position: relative;
    width: 22.4px;

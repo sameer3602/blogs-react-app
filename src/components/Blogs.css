@@ -1,0 +1,16 @@
+.PostError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-weight: 700;
+}
+.author{
+    font-weight: 700; 
+}
+
+.tags{
+    color: #6161cc;
+}

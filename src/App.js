@@ -13,7 +13,7 @@ export default function App() {
   return(
     <div>
       <Header/>
-      <Blogs/>
+      <Blogs></Blogs>
       <Pagination/>
     </div>
   ) 
