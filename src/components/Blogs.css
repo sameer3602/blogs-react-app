@@ -6,11 +6,32 @@
 
 .title{
     font-weight: 700;
+    color: rgb(188, 61, 39);
+    font-size: 20px;
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 5px;
+    text-align: center;
 }
 .author{
-    font-weight: 700; 
+    font-style: italic;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
 }
-
+.category{
+    font-weight: 600;
+}
+.date{
+    font-weight: 600;
+    margin-left: 5px;
+}
 .tags{
     color: #6161cc;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-decoration: underline;
 }

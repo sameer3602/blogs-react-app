@@ -6,7 +6,7 @@ const Blogs = () => {
     const {posts,loading}=useContext(Appcontext);
 
   return (
-    <div>
+    <div className='Blogsdiv'>
         {
             loading ? (<Spinner/>):(
                 posts.length===0?(<div className='PostError'><p className='Nopost'>No Post Fount</p></div>):
@@ -14,9 +14,9 @@ const Blogs = () => {
                     <div key={post.id} className='posts'>
                         <p className='title'>{post.title}</p>
                         <p>
-                            By <span className='author'>{post.author}</span> on <span>{post.category}</span>
+                            By <span className='author'>{post.author}</span> on <span className='category'>{post.category}</span>
                         </p>
-                        <p className='date'>posted on {post.date}</p>
+                        <p>Posted on   <span className='date'>{post.date}</span></p>
                         <p className='content'>{post.content}</p>
                         <div>
                             {post.tags.map((tag,index)=>{
