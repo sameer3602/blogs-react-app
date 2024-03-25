@@ -21,6 +21,8 @@
 }
 .category{
     font-weight: 600;
+    text-decoration: underline;
+    font-size: 18px;
 }
 .date{
     font-weight: 600;
@@ -33,5 +35,4 @@
 .content{
     text-transform: capitalize;
     letter-spacing: 0.5px;
-    text-decoration: underline;
 }
