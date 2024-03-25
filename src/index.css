@@ -29,7 +29,7 @@ body{
     gap:10px;
 }
 .Blogsdiv{
-    margin-top: 100px;
+    margin-top: 80px;
     position: relative;
     width: 580px;
     display: flex;
@@ -69,8 +69,8 @@ body{
 }
 .nextbtn{
     margin-top: 15px;
+    margin-left: 30px;
     height: 35px;
-    margin-right: 240px;
 }
 .PageCount{
     font-weight: 700;
